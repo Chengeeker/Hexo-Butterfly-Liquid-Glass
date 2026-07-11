@@ -93,11 +93,11 @@ git clone https://github.com/yourname/Hexo-Butterfly-Liquid-Glass.git
 ```
 
 ### 2. Deploy Files
-Copy the `butterfly-liquid-glass` folder into the `source/` directory of your Hexo site.  
-The final path should be: `source/butterfly-liquid-glass/css/`.
+Copy the project folder into the `source/` directory of your Hexo root.  
+The final path should be: `Your Blog/source/butterfly-liquid-glass`.
 
 ### 3. Inject CSS
-Modify the `_config.yml` file in the root directory of your Hexo site. Under `inject` -> `head`, include the following CSS files in order (**Note the order: the variable file must be imported first**):
+Modify the `_config.butterfly.yml` file in the root directory of your Hexo site. Under `inject` -> `head`, include the following CSS files in order (**Note the order: the variable file must be imported first**):
 
 ```yaml
 inject:
@@ -139,7 +139,7 @@ During development, we tested several visual approaches but deliberately removed
 
 | Removed Feature | Reason for Removal |
 | :--- | :--- |
-| **Top Banner Global Blending** | Unstable performance in dark mode; easily distracts from正文 (main text) reading. |
+| **Top Banner Global Blending** | Unstable performance in dark mode; easily distracts from reading the main content. |
 | **Floating Control Center** | Occupies main content space; significantly degrades the experience on mobile devices. |
 | **Extra Hover Animations** | Butterfly's native interactions are already sufficient; extra animations offer limited visual ROI and can look cluttered. |
 | **Cover Image Blending Animations** | Disrupts the inherent reading rhythm and immersion of a blog. |
