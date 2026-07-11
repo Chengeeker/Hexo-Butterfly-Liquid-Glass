@@ -89,7 +89,7 @@ butterfly-liquid-glass/
 
 ### 1. Clone the Project
 ```bash
-git clone https://github.com/yourname/Hexo-Butterfly-Liquid-Glass.git
+git clone https://github.com/Chengeeker/Hexo-Butterfly-Liquid-Glass.git
 ```
 
 ### 2. Deploy Files
