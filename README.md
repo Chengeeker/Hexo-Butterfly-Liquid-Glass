@@ -93,11 +93,11 @@ git clone https://github.com/yourname/Hexo-Butterfly-Liquid-Glass.git
 ```
 
 ### 2. 部署文件
-将 `butterfly-liquid-glass` 文件夹复制到 Hexo 站点的 `source/` 目录下。  
-最终路径应为：`source/butterfly-liquid-glass/css/`。
+将项目文件夹复制到 Hexo 根目录的 `source/` 目录下。  
+最终路径应为：`Your Blog/source/butterfly-liquid-glass`。
 
 ### 3. 引入 CSS
-修改 Hexo 根目录下的 `_config.yml`，在 `inject` -> `head` 中按顺序引入以下 CSS 文件（**注意顺序，变量文件需最先引入**）：
+修改 Hexo 根目录下的 `_config.butterfly.yml`，在 `inject` -> `head` 中按顺序引入以下 CSS 文件（**注意顺序，变量文件需最先引入**）：
 
 ```yaml
 inject:
