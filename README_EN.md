@@ -170,7 +170,7 @@ Contributions via Issues or Pull Requests are welcome, including but not limited
 
 ## 📄 License
 
-License TBD (To Be Determined).
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
