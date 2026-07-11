@@ -89,7 +89,7 @@ butterfly-liquid-glass/
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/yourname/Hexo-Butterfly-Liquid-Glass.git
+git clone https://github.com/Chengeeker/Hexo-Butterfly-Liquid-Glass.git
 ```
 
 ### 2. 部署文件
