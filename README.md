@@ -89,7 +89,7 @@ butterfly-liquid-glass/
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/Chengeeker/Hexo-Butterfly-Liquid-Glass.git
+git clone https://github.com/yourname/Hexo-Butterfly-Liquid-Glass.git
 ```
 
 ### 2. 部署文件
@@ -102,10 +102,11 @@ git clone https://github.com/Chengeeker/Hexo-Butterfly-Liquid-Glass.git
 ```yaml
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-variable.css">
 
     - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-background.css">
+
+    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-page.css">
 
     - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-glass.css">
 
@@ -116,13 +117,12 @@ inject:
     - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-post.css">
 
     - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-tag.css">
-    
+
     - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-toc.css">
 
+    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-search.css">
+
     - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-config.css">
-  bottom:
-    # - <script src="xxxx"></script>
-      - <script src="/butterfly-liquid-glass/js/liquid-config.js"></script>
 ```
 
 ### 4. 生成与预览
