@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<strong>A modular Liquid Glass UI enhancement system built for the Hexo Butterfly theme.</strong><br>
+<strong>A modular Glass UI enhancement system built for the Hexo Butterfly theme.</strong><br>
 Introducing Apple-style Liquid Glass and Material You dark design language to Butterfly without modifying the original theme source code.
 </p>
 
