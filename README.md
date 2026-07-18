@@ -1,7 +1,7 @@
 # Hexo-Butterfly-Glass
 
 <p align="center">
-<a href="./README.md">中文</a> | <a href="./README_EN.md">English</a>
+<a href="./README.md">中文</a> | <a href="./README_EN.md">英文</a>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 
 ## ✨ 项目简介
 
-**Hexo-Butterfly-Liquid-Glass** 是一个针对 Hexo Butterfly 主题开发的视觉增强项目。本项目通过独立的 CSS 模块，对 Butterfly 主题进行非侵入式 UI 增强，将现代操作系统（如 Apple Liquid Glass、macOS 半透明界面、iOS 控制中心、visionOS 空间化 UI 以及 Android Material You）的设计语言引入博客界面。
+**Hexo-Butterfly-Glass** 是一个针对 Hexo Butterfly 主题开发的视觉增强项目。本项目通过独立的 CSS 模块，对 Butterfly 主题进行非侵入式 UI 增强，将现代操作系统（如 Apple Liquid Glass、macOS 半透明界面、iOS 控制中心、visionOS 空间化 UI 以及 Android Material You）的设计语言引入博客界面。
 
 项目的核心理念是 **“Enhance, don't replace”（增强，而非替代）**。
 
