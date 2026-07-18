@@ -1,7 +1,7 @@
 # Hexo-Butterfly-Glass
 
 <p align="center">
-<a href="./README.md">中文</a> | <a href="./README_EN.md">English</a>
+<a href="./README.md">中文</a> | <a href="./README_EN.md">英文</a>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@ Introducing Apple-style Liquid Glass and Material You dark design language to Bu
 
 ## ✨ Introduction
 
-**Hexo-Butterfly-Liquid-Glass** is a visual enhancement project developed specifically for the Hexo Butterfly theme. Through independent CSS modules, it provides a non-intrusive UI upgrade, bringing modern operating system design languages (such as Apple Liquid Glass, macOS translucent interfaces, iOS Control Center, visionOS spatial UI, and Android Material You) into the blog interface.
+**Hexo-Butterfly-Glass** is a visual enhancement project developed specifically for the Hexo Butterfly theme. Through independent CSS modules, it provides a non-intrusive UI upgrade, bringing modern operating system design languages (such as Apple Liquid Glass, macOS translucent interfaces, iOS Control Center, visionOS spatial UI, 和 Android Material You) into the blog interface.
 
 The core philosophy of this project is **"Enhance, don't replace."**
 
@@ -28,8 +28,8 @@ We do not modify the underlying source code of the Butterfly theme. Instead, vis
 ## 🌟 Core Features
 
 ### 🪟 Glass morphism UI system
-Upgrades original Butterfly components into modern glass UI. By utilizing `backdrop-filter`, semi-transparent surfaces, multi-layer shadows, border transparency, and specular highlights, it achieves a visual texture similar to macOS Toolbars, iOS Panels, and visionOS Windows.
-- **Covered Components**: Homepage post cards, sidebar widgets, right-side action buttons, Table of Contents (TOC), and the top navigation bar.
+Upgrades original Butterfly components into modern glass UI. By utilizing `backdrop-filter`, semi-transparent surfaces, multi-layer shadows, border transparency, 和 specular highlights, it achieves a visual texture similar to macOS Toolbars, iOS Panels, and visionOS Windows.
+- **Covered Components**: Homepage post cards, sidebar widgets, right-side action buttons, Table of Contents (TOC), 和 the top navigation bar.
 
 ### 🌈 Ambient Background System
 Constructs a dynamic ambient background using pure CSS, abandoning the traditional fixed background image approach. It employs multi-layer gradients and ambient light effects, combined with glass refraction and spatial hierarchy, to create an immersive experience akin to macOS Sonoma wallpapers and visionOS spatial visuals. It supports independent designs for Light/Dark modes with zero additional image dependencies.
