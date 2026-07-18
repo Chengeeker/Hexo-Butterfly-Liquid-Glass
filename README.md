@@ -65,23 +65,23 @@ Liquid Glass System (最终视觉呈现)
 ## 📂 项目结构与模块说明
 
 ```text
-butterfly-liquid-glass/
+butterfly-glass/
 └── css/
-    ├── liquid-variable.css   # 全局设计变量（圆角、阴影、模糊、颜色等）
-    ├── liquid-background.css # 页面背景系统（Light/Dark 模式背景）
-    ├── liquid-ambient.css    # 环境光系统（柔和反射、色彩氛围、空间层次）
-    ├── liquid-glass.css      # 核心玻璃组件（卡片、侧边栏、功能按钮）
-    ├── liquid-navbar.css     # 顶部悬浮玻璃导航
-    ├── liquid-post.css       # 文章页面增强（内容 Surface、阅读体验优化）
-    ├── liquid-tag.css        # 标签胶囊系统
-    ├── liquid-toc.css        # 文章目录玻璃化
-    └── liquid-config.css     # 最终覆盖层（权重修正、兼容补丁、特殊调整）
+    ├── glass-variable.css   # 全局设计变量（圆角、阴影、模糊、颜色等）
+    ├── glass-background.css # 页面背景系统（Light/Dark 模式背景）
+    ├── glass-ambient.css    # 环境光系统（柔和反射、色彩氛围、空间层次）
+    ├── glass.css      # 核心玻璃组件（卡片、侧边栏、功能按钮）
+    ├── glass-navbar.css     # 顶部悬浮玻璃导航
+    ├── glass-post.css       # 文章页面增强（内容 Surface、阅读体验优化）
+    ├── glass-tag.css        # 标签胶囊系统
+    ├── glass-toc.css        # 文章目录玻璃化
+    └── glass-config.css     # 最终覆盖层（权重修正、兼容补丁、特殊调整）
 ```
 
 **核心模块解析**：
-- **`liquid-variable.css`**：全局设计变量系统，集中管理 `--lg-radius-xl`、`--lg-blur-heavy` 等核心参数。
-- **`liquid-glass.css`**：核心视觉实现，大量运用 `backdrop-filter`、`rgba()`、`box-shadow` 构建玻璃质感。
-- **`liquid-config.css`**：作为最终的覆盖层，负责 CSS 权重修正与 Butterfly 的兼容补丁。
+- **`glass-variable.css`**：全局设计变量系统，集中管理 `--lg-radius-xl`、`--lg-blur-heavy` 等核心参数。
+- **`glass.css`**：核心视觉实现，大量运用 `backdrop-filter`、`rgba()`、`box-shadow` 构建玻璃质感。
+- **`glass-config.css`**：作为最终的覆盖层，负责 CSS 权重修正与 Butterfly 的兼容补丁。
 
 ---
 
@@ -89,12 +89,12 @@ butterfly-liquid-glass/
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/yourname/Hexo-Butterfly-Liquid-Glass.git
+git clone https://github.com/yourname/Hexo-Butterfly-Glass.git
 ```
 
 ### 2. 部署文件
 将项目文件夹复制到 Hexo 根目录的 `source/` 目录下。  
-最终路径应为：`Your Blog/source/butterfly-liquid-glass`。
+最终路径应为：`Your_Blog_Root/source/butterfly-glass`。
 
 ### 3. 引入 CSS
 修改 Hexo 根目录下的 `_config.butterfly.yml`，在 `inject` -> `head` 中按顺序引入以下 CSS 文件（**注意顺序，变量文件需最先引入**）：
@@ -102,27 +102,27 @@ git clone https://github.com/yourname/Hexo-Butterfly-Liquid-Glass.git
 ```yaml
 inject:
   head:
-    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-variable.css">
+    - <link rel="stylesheet" href="/butterfly-glass/css/glass-variable.css">
 
-    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-background.css">
+    - <link rel="stylesheet" href="/butterfly-glass/css/glass-background.css">
 
-    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-page.css">
+    - <link rel="stylesheet" href="/butterfly-glass/css/glass-page.css">
 
-    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-glass.css">
+    - <link rel="stylesheet" href="/butterfly-glass/css/glass.css">
 
-    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-ambient.css">
+    - <link rel="stylesheet" href="/butterfly-glass/css/glass-ambient.css">
 
-    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-navbar.css">
+    - <link rel="stylesheet" href="/butterfly-glass/css/glass-navbar.css">
 
-    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-post.css">
+    - <link rel="stylesheet" href="/butterfly-glass/css/glass-post.css">
 
-    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-tag.css">
+    - <link rel="stylesheet" href="/butterfly-glass/css/glass-tag.css">
 
-    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-toc.css">
+    - <link rel="stylesheet" href="/butterfly-glass/css/glass-toc.css">
 
-    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-search.css">
+    - <link rel="stylesheet" href="/butterfly-glass/css/glass-search.css">
 
-    - <link rel="stylesheet" href="/butterfly-liquid-glass/css/liquid-config.css">
+    - <link rel="stylesheet" href="/butterfly-glass/css/glass-config.css">
 ```
 
 ### 4. 生成与预览
