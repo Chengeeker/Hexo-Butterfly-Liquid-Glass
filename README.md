@@ -27,7 +27,7 @@
 
 ## 🌟 核心特性
 
-### 🪟 Liquid Glass 玻璃化系统
+### 🪟 玻璃拟态系统
 将 Butterfly 原有组件升级为现代玻璃拟态 UI。通过 `backdrop-filter`、半透明 Surface、多层阴影、边框透明度及高光反射等技术，实现类似 macOS Toolbar、iOS Panel 和 visionOS Window 的视觉质感。
 - **覆盖组件**：首页文章卡片、侧边栏组件、右侧功能按钮、文章目录（TOC）、顶部导航栏。
 
